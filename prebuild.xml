@@ -37,16 +37,16 @@
         <Project frameworkVersion="v4_0" name="OpenLife.Model" path="OpenLife/Model" type="Library">
           <Configuration name="Debug">
             <Options>
-              <OutputPath>../../../bin/</OutputPath>
+              <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
             </Options>
           </Configuration>
           <Configuration name="Release">
             <Options>
-              <OutputPath>../../../bin/</OutputPath>
+              <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
             </Options>
           </Configuration>
 
-          <ReferencePath>../../../bin/</ReferencePath>
+          <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
           <Reference name="System"/>
           <Reference name="System.Xml"/>
           <Files>
@@ -58,16 +58,16 @@
     <Project frameworkVersion="v4_0" name="SmartThreadPool" path="ThirdParty/SmartThreadPool" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Data"/>
@@ -80,16 +80,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework" path="OpenLife/Framework" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
@@ -97,17 +97,17 @@
       <Reference name="System.Data"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../bin/"/>
-      <Reference name="XMLRPC" path="../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../OpenLifeSim/bin/"/>
       <!-- <Reference name="OpenLife.Framework.Console"/> -->
       <!-- <Reference name="OpenLife.Framework.Servers.HttpServer"/> -->
-      <Reference name="Nini" path="../../bin/"/>
-      <Reference name="log4net" path="../../bin/"/>
-      <Reference name="Mono.Addins" path="../../bin/"/>
-      <Reference name="Mono.Addins.Setup" path="../../bin/"/>
-      <Reference name="LukeSkywalker.IPNetwork" path="../../bin/"/>
+      <Reference name="Nini" path="../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins.Setup" path="../../OpenLifeSim/bin/"/>
+      <Reference name="LukeSkywalker.IPNetwork" path="../../OpenLifeSim/bin/"/>
       <Reference name="SmartThreadPool"/>
       <Files>
         <Match pattern="*.cs" recurse="false"/>
@@ -119,26 +119,26 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.Interfaces" path="OpenLife/Services/Interfaces" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="System.Xml"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -148,23 +148,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Monitoring" path="OpenLife/Framework/Monitoring" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
 
       <Files>
@@ -175,27 +175,27 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Servers.HttpServer" path="OpenLife/Framework/Servers/HttpServer" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
-      <Reference name="HttpServer_OpenLife" path="../../../../bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="HttpServer_OpenLife" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="SmartThreadPool"/>
 
       <Files>
@@ -216,25 +216,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Console" path="OpenLife/Framework/Console" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="true"/>
       </Files>
@@ -243,22 +243,22 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Serialization" path="OpenLife/Framework/Serialization" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Services.Interfaces"/>
 
@@ -272,27 +272,27 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data" path="OpenLife/Data" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Xml"/>
-      <Reference name="XMLRPC" path="../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../bin/"/>
+      <Reference name="XMLRPC" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
-      <Reference name="log4net" path="../../bin/"/>
-      <Reference name="Mono.Addins" path="../../bin/"/>
+      <Reference name="log4net" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="false"/>
         <Match pattern="Properties/*.cs" recurse="false"/>
@@ -303,23 +303,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.AssetLoader.Filesystem" path="OpenLife/Framework/AssetLoader/Filesystem" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="true"/>
       </Files>
@@ -328,16 +328,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Servers" path="OpenLife/Framework/Servers" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
@@ -346,12 +346,12 @@
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="HttpServer_OpenLife" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="HttpServer_OpenLife" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false">
@@ -362,16 +362,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Capabilities" path="OpenLife/Capabilities" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
@@ -380,10 +380,10 @@
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="OpenMetaverse" path="../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../bin/"/>
-      <Reference name="Nini" path="../../bin/"/>
-      <Reference name="log4net" path="../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false">
@@ -397,24 +397,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModules.SharedBase" path="OpenLife/Region/PhysicsModules/SharedBase" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
-      <Reference name="nunit.framework" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="nunit.framework" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false"/>
@@ -424,24 +424,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.Framework" path="OpenLife/Region/Framework" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Capabilities"/>
@@ -454,11 +454,11 @@
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -473,32 +473,32 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Server.Base" path="OpenLife/Server/Base" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="Mono.Addins.Setup" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins.Setup" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -508,24 +508,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.Base" path="OpenLife/Services/Base" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -535,28 +535,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.UserAccountService" path="OpenLife/Services/UserAccountService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -566,28 +566,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.FriendsService" path="OpenLife/Services/Friends" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -597,25 +597,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.Connectors" path="OpenLife/Services/Connectors" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Capabilities"/>
@@ -626,9 +626,9 @@
       <Reference name="OpenLife.Server.Base"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -638,31 +638,31 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.SimulationService" path="OpenLife/Services/SimulationService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -672,19 +672,19 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.AssetService" path="OpenLife/Services/AssetService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -693,8 +693,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -704,20 +704,20 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.FSAssetService" path="OpenLife/Services/FSAssetService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Serialization"/>
@@ -727,8 +727,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -738,19 +738,19 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.AuthorizationService" path="OpenLife/Services/AuthorizationService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -758,8 +758,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -769,20 +769,20 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.FreeswitchService" path="OpenLife/Services/FreeswitchService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -790,8 +790,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -801,19 +801,19 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.AuthenticationService" path="OpenLife/Services/AuthenticationService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -823,8 +823,8 @@
       <Reference name="OpenLife.Server.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -834,21 +834,21 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.GridService" path="OpenLife/Services/GridService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -857,8 +857,8 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Server.Base"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -868,26 +868,26 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.EstateService" path="OpenLife/Services/EstateService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -897,19 +897,19 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.PresenceService" path="OpenLife/Services/PresenceService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -917,8 +917,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -928,19 +928,19 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.AvatarService" path="OpenLife/Services/AvatarService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -948,8 +948,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -959,20 +959,20 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.InventoryService" path="OpenLife/Services/InventoryService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -980,8 +980,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -994,16 +994,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.LLLoginService" path="OpenLife/Services/LLLoginService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="OpenLife.Framework"/>
@@ -1013,11 +1013,11 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Server.Base"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1027,21 +1027,21 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.HypergridService" path="OpenLife/Services/HypergridService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Serialization"/>
       <Reference name="OpenLife.Framework.Console"/>
@@ -1055,8 +1055,8 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Server.Base"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1066,27 +1066,27 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.MapImageService" path="OpenLife/Services/MapImageService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Drawing"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.Base"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1096,16 +1096,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.UserProfilesService" path="OpenLife/Services/UserProfilesService" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="OpenLife.Framework"/>
@@ -1117,11 +1117,11 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Server.Base"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1131,22 +1131,22 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Server.Handlers" path="OpenLife/Server/Handlers" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -1154,11 +1154,11 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.UserAccountService"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenId" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenId" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1171,24 +1171,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Capabilities.Handlers" path="OpenLife/Capabilities/Handlers" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
@@ -1197,9 +1197,9 @@
       <Reference name="OpenLife.Server.Handlers"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenId" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenId" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1212,31 +1212,31 @@
     <Project frameworkVersion="v4_0" name="Robust" path="OpenLife/Server" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Server.Base"/>
       <Reference name="OpenLife.Server.Handlers"/>
-      <Reference name="Nini" path="../../bin/"/>
-      <Reference name="log4net" path="../../bin/"/>
-      <Reference name="Mono.Addins" path="../../bin/"/>
-      <Reference name="Mono.Addins.Setup" path="../../bin/"/>
+      <Reference name="Nini" path="../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins.Setup" path="../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false">
@@ -1248,28 +1248,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.ConsoleClient" path="OpenLife/ConsoleClient" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Server.Base"/>
-      <Reference name="Nini" path="../../bin/"/>
-      <Reference name="log4net" path="../../bin/"/>
+      <Reference name="Nini" path="../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false">
@@ -1282,25 +1282,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ClientStack.LindenUDP" path="OpenLife/Region/ClientStack/Linden/UDP" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="NDesk.Options" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../../bin/"/>
+      <Reference name="NDesk.Options" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
@@ -1309,11 +1309,11 @@
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
-      <Reference name="C5" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../../../bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="C5" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1327,24 +1327,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ClientStack.LindenCaps" path="OpenLife/Region/ClientStack/Linden/Caps" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="OpenMetaverse" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../../OpenLifeSim/bin/"/>
 
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Capabilities"/>
@@ -1356,11 +1356,11 @@
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Mono.Addins" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="zlib.net" path="../../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="zlib.net" path="../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1373,18 +1373,18 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.CoreModules" path="OpenLife/Region/CoreModules" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
           <AllowUnsafe>true</AllowUnsafe>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
           <AllowUnsafe>true</AllowUnsafe>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
@@ -1392,12 +1392,12 @@
       <Reference name="System.Drawing"/>
       <Reference name="System.Web"/>
       <Reference name="Microsoft.CSharp" />
-      <Reference name="NDesk.Options" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="CSJ2K" path="../../../bin/"/>
-      <Reference name="Warp3D" path="../../../bin/"/>
+      <Reference name="NDesk.Options" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="CSJ2K" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Warp3D" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework"/>
@@ -1414,18 +1414,18 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Ionic.Zip" path="../../../bin/"/>
+      <Reference name="Ionic.Zip" path="../../../OpenLifeSim/bin/"/>
 
-      <Reference name="GlynnTucker.Cache" path="../../../bin/"/>
+      <Reference name="GlynnTucker.Cache" path="../../../OpenLifeSim/bin/"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
 
       <!-- To allow regions to have mono addins -->
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
       <Reference name="SmartThreadPool"/>
 
       <Files>
@@ -1440,28 +1440,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.OptionalModules" path="OpenLife/Region/OptionalModules" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Web"/>
-      <Reference name="Ionic.Zip" path="../../../bin/"/>
-      <Reference name="NDesk.Options" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="Mono.Data.SqliteClient" path="../../../bin/"/>
+      <Reference name="Ionic.Zip" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="NDesk.Options" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Data.SqliteClient" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Data"/>
@@ -1480,13 +1480,13 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1500,25 +1500,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data.Null" path="OpenLife/Data/Null" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1528,22 +1528,22 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModules.ConvexDecompositionDotNet" path="OpenLife/Region/PhysicsModules/ConvexDecompositionDotNet" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Xml"/>
       <Reference name="OpenLife.Framework"/>	  
-	  <Reference name="Mono.Addins" path="../../../../bin/"/>
+	  <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
 	  
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1555,29 +1555,29 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.Meshing" path="OpenLife/Region/PhysicsModules/Meshing" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Drawing"/>
-      <Reference name="CSJ2K" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="CSJ2K" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1588,23 +1588,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.BasicPhysics" path="OpenLife/Region/PhysicsModules/BasicPhysics" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="true"/>
       </Files>
@@ -1613,23 +1613,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.POS" path="OpenLife/Region/PhysicsModules/POS" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="true"/>
       </Files>
@@ -1638,26 +1638,26 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.Ode" path="OpenLife/Region/PhysicsModules/Ode" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1669,28 +1669,28 @@
    <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.ubOde" path="OpenLife/Region/PhysicsModules/ubOde" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
 
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.PhysicsModules.ConvexDecompositionDotNet"/>
-	  <Reference name="Mono.Addins" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+	  <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1702,30 +1702,30 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.ubOdeMeshing" path="OpenLife/Region/PhysicsModules/ubOdeMeshing" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Drawing"/>
-      <Reference name="CSJ2K" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
+      <Reference name="CSJ2K" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
 	  <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.PhysicsModules.ConvexDecompositionDotNet"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 	  
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1735,33 +1735,33 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.BulletS" path="OpenLife/Region/PhysicsModules/BulletS" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
           <AllowUnsafe>true</AllowUnsafe>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
           <AllowUnsafe>true</AllowUnsafe>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="Nini.dll"  path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini.dll"  path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
-      <Reference name="OpenLife.Region.PhysicsModule.Meshing" path="../../../../bin/"/>
+      <Reference name="OpenLife.Region.PhysicsModule.Meshing" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Region.PhysicsModules.ConvexDecompositionDotNet"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
-      <Reference name="BulletXNA.dll" path="../../../../bin/"/>
-      <Reference name="log4net.dll" path="../../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="BulletXNA.dll" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net.dll" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1774,24 +1774,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife" path="OpenLife/Region/Application" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="NDesk.Options" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="NDesk.Options" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework.Console"/>
@@ -1805,9 +1805,9 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.UserAccountService"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1817,21 +1817,21 @@
     <Project frameworkVersion="v4_0" name="OpenLife.ApplicationPlugins.LoadRegions" path="OpenLife/ApplicationPlugins/LoadRegions" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Region.CoreModules"/>
       <Reference name="OpenLife.Region.Framework"/>
@@ -1839,7 +1839,7 @@
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1850,25 +1850,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.ApplicationPlugins.RegionModulesController" path="OpenLife/ApplicationPlugins/RegionModulesController" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1879,25 +1879,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.ApplicationPlugins.RemoteController" path="OpenLife/ApplicationPlugins/RemoteController" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.CoreModules"/>
@@ -1906,7 +1906,7 @@
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1920,16 +1920,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data.MySQL" path="OpenLife/Data/MySQL" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
@@ -1937,14 +1937,14 @@
       <Reference name="System.Xml"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Data"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="MySql.Data" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="MySql.Data" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -1959,16 +1959,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data.PGSQL" path="OpenLife/Data/PGSQL" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
@@ -1978,12 +1978,12 @@
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-	  <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="Npgsql" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+	  <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Npgsql" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -1995,16 +1995,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data.SQLite" path="OpenLife/Data/SQLite" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
@@ -2014,12 +2014,12 @@
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.Framework"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="Mono.Data.Sqlite"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2035,30 +2035,30 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Shared" path="OpenLife/Region/ScriptEngine/Shared" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.CoreModules"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Services.Interfaces"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="SmartThreadPool"/>
 
       <Files>
@@ -2071,29 +2071,29 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Shared.Api.Runtime" path="OpenLife/Region/ScriptEngine/Shared/Api/Runtime" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.CoreModules"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared"/>
-      <Reference name="Nini" path="../../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../../bin/"/>
+      <Reference name="Nini" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="false"/>
@@ -2103,25 +2103,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Shared.Api" path="OpenLife/Region/ScriptEngine/Shared/Api/Implementation" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
@@ -2133,8 +2133,8 @@
 	  <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared.Api.Runtime"/>
-      <Reference name="Nini" path="../../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../../bin/"/>
+      <Reference name="Nini" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2144,25 +2144,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Shared.CodeTools" path="OpenLife/Region/ScriptEngine/Shared/CodeTools" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared"/>
       <Reference name="OpenLife.Region.CoreModules"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
-      <Reference name="Tools" path="../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Tools" path="../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2174,21 +2174,21 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Shared.Instance" path="OpenLife/Region/ScriptEngine/Shared/Instance" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
@@ -2199,9 +2199,9 @@
       <Reference name="OpenLife.Region.ScriptEngine.Shared.Api"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared.Api.Runtime"/>
       <Reference name="SmartThreadPool"/>
-      <Reference name="Axiom.MathLib" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
+      <Reference name="Axiom.MathLib" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2213,21 +2213,21 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.XEngine.Api.Runtime" path="OpenLife/Region/ScriptEngine/XEngine/Api/Runtime" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
@@ -2235,8 +2235,8 @@
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared.Api.Runtime"/>
-      <Reference name="Nini" path="../../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../../bin/"/>
+      <Reference name="Nini" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2246,23 +2246,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.XEngine" path="OpenLife/Region/ScriptEngine/XEngine" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Region.Framework"/>
@@ -2275,9 +2275,9 @@
       <Reference name="OpenLife.Region.ScriptEngine.Shared.Api.Runtime"/>
       <Reference name="OpenLife.Region.ScriptEngine.XEngine.Api.Runtime"/>
       <Reference name="SmartThreadPool"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../../bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match buildAction="EmbeddedResource" path="Resources" pattern="*.addin.xml" recurse="true"/>
@@ -2293,28 +2293,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Addons.OfflineIM" path="OpenLife/Addons/OfflineIM" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
 
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="MySql.Data" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="MySql.Data" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
 
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Data"/>
@@ -2327,7 +2327,7 @@
       <Reference name="OpenLife.Server.Handlers"/>
 
       <!-- To allow regions to have mono addins -->
-      <Reference name="Mono.Addins" path="../../../bin/" />
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/" />
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2340,28 +2340,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Addons.Groups" path="OpenLife/Addons/Groups" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Web"/>
       <Reference name="System.Xml"/>
 
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
 
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
@@ -2375,7 +2375,7 @@
       <Reference name="OpenLife.Server.Handlers"/>
 
       <!-- To allow regions to have mono addins -->
-      <Reference name="Mono.Addins" path="../../../bin/" />
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/" />
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2392,25 +2392,25 @@
     <Project frameworkVersion="v4_0" name="pCampBot" path="OpenLife/Tools/pCampBot" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2420,24 +2420,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tools.lslc" path="OpenLife/Tools/Compiler" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared.CodeTools"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2447,20 +2447,20 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tools.Configger" path="OpenLife/Tools/Configger" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2471,24 +2471,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tests.Clients.AssetClient" path="OpenLife/Tests/Clients/Assets" type="Exe">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Services.Connectors"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2499,30 +2499,30 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tests.Common" path="OpenLife/Tests/Common" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="HttpServer_OpenLife" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="HttpServer_OpenLife" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Data.Null"/>
       <Reference name="OpenLife.Framework"/>
@@ -2548,18 +2548,18 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tests" path="OpenLife/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../bin/</OutputPath>
+          <OutputPath>../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../bin/</ReferencePath>
-      <Reference name="Nini" path="../../bin/"/>
-      <Reference name="nunit.framework" path="../../bin/"/>
+      <ReferencePath>../../OpenLifeSim/bin/</ReferencePath>
+      <Reference name="Nini" path="../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Tests.Common"/>
@@ -2571,25 +2571,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Services.InventoryService.Tests" path="OpenLife/Services/InventoryService/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="nunit.framework" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
+      <Reference name="nunit.framework" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Capabilities.Handlers"/>
       <Reference name="OpenLife.Framework"/>
@@ -2601,8 +2601,8 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../../bin/"/>
-      <Reference name="log4net" path="../../../../bin/"/>
+      <Reference name="Nini" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2613,19 +2613,19 @@
     <Project frameworkVersion="v4_0" name="Robust.Tests" path="OpenLife/Tests/Robust" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -2636,9 +2636,9 @@
       <Reference name="OpenLife.Services.Connectors"/>
       <Reference name="OpenLife.Tests.Common"/>
       <Reference name="Robust"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -2649,25 +2649,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Capabilities.Handlers.Tests" path="OpenLife/Capabilities/Handlers" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Capabilities.Handlers"/>
       <Reference name="OpenLife.Framework"/>
@@ -2679,9 +2679,9 @@
       <Reference name="OpenLife.Services.Base"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenId" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenId" path="../../../OpenLifeSim/bin/"/>
 
       <!-- 
            TODO: this is kind of lame, we basically build a duplicate
@@ -2700,38 +2700,38 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Data.Tests" path="OpenLife/Data/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Core"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Data"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Region.CoreModules"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
 
       <Reference name="OpenLife.Data.MySQL"/>
       <Reference name="OpenLife.Data.SQLite"/>
       
-      <Reference name="MySql.Data" path="../../../bin/"/>
-      <Reference name="Mono.Data.Sqlite" path="../../../bin/"/>
+      <Reference name="MySql.Data" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Mono.Data.Sqlite" path="../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="true"/>
         <Match buildAction="EmbeddedResource" path="Resources" pattern="*.ini"/>
@@ -2741,29 +2741,29 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Tests" path="OpenLife/Framework/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Data"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
       <Files>
         <Match pattern="*.cs" recurse="false"/>
       </Files>
@@ -2772,27 +2772,27 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Serialization.Tests" path="OpenLife/Framework/Serialization/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
-      <Reference name="OpenMetaverse" path="../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Tests.Common"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Serialization"/>
-      <Reference name="log4net" path="../../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../../bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2803,16 +2803,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Framework.Servers.Tests" path="OpenLife/Framework/Servers/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../bin/</OutputPath>
+          <OutputPath>../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Services.Interfaces"/>
@@ -2820,9 +2820,9 @@
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Servers"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
-      <Reference name="log4net" path="../../../../bin/"/>
-      <Reference name="HttpServer_OpenLife" path="../../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../../bin/"/>
+      <Reference name="log4net" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="HttpServer_OpenLife" path="../../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true">
@@ -2833,23 +2833,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.CoreModules.Tests" path="OpenLife/Region/CoreModules" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Data.Null"/>
       <Reference name="OpenLife.Framework"/>
@@ -2868,14 +2868,14 @@
 
       <!-- Unit tests -->
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
 
       <!--
            TODO: this is kind of lame, we basically build a duplicate
@@ -2911,23 +2911,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.OptionalModules.Tests" path="OpenLife/Region/OptionalModules" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Data"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Serialization"/>
@@ -2947,14 +2947,14 @@
 
       <!-- Unit tests -->
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
 
       <!--
            TODO: this is kind of lame, we basically build a duplicate
@@ -2973,24 +2973,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.Framework.Tests" path="OpenLife/Region/Framework" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Drawing"/>
       <Reference name="System.Runtime.Remoting"/>
-      <Reference name="Mono.Addins" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
+      <Reference name="Mono.Addins" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife"/>
       <Reference name="OpenLife.ApplicationPlugins.RegionModulesController"/>
       <Reference name="OpenLife.Capabilities"/>
@@ -3011,14 +3011,14 @@
       <!-- Unit tests -->
       <!-- <Reference name="OpenLife.Tests.Common"/> -->
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
 
       <!-- For scripting in funny languages by default -->
-      <Reference name="XMLRPC" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="DotNetOpenMail" path="../../../bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="DotNetOpenMail" path="../../../OpenLifeSim/bin/"/>
 
       <!--
            TODO: this is kind of lame, we basically build a duplicate
@@ -3035,25 +3035,25 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ClientStack.LindenCaps.Tests" path="OpenLife/Region/ClientStack/Linden/Caps" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="HttpServer_OpenLife" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../../../bin/"/>
+      <Reference name="HttpServer_OpenLife" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Capabilities"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
@@ -3076,23 +3076,23 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ClientStack.LindenUDP.Tests" path="OpenLife/Region/ClientStack/Linden/UDP/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
-      <Reference name="log4net" path="../../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../../bin/"/>
+      <Reference name="log4net" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Monitoring"/>
       <Reference name="OpenLife.Region.ClientStack.LindenUDP"/>
@@ -3110,16 +3110,16 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.ScriptEngine.Tests" path="OpenLife/Region/ScriptEngine" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
@@ -3136,15 +3136,15 @@
       <Reference name="OpenLife.Region.ScriptEngine.XEngine"/>
       <Reference name="OpenLife.Services.Interfaces"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared.CodeTools"/>
       <Reference name="OpenLife.Region.ScriptEngine.Shared"/>
-      <Reference name="Tools" path="../../../bin/"/>
+      <Reference name="Tools" path="../../../OpenLifeSim/bin/"/>
 
       <!--
            TODO: this is kind of lame, we basically build a duplicate
@@ -3168,28 +3168,28 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.Ode.Tests" path="OpenLife/Region/PhysicsModules/Ode/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Region.PhysicsModules.SharedBase"/>
       <Reference name="OpenLife.Region.PhysicsModule.Ode"/>
       <Reference name="OpenLife.Region.Framework"/>
       <Reference name="OpenLife.Tests.Common"/>
-      <Reference name="nunit.framework" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
+      <Reference name="nunit.framework" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
 
       <Files>
         <Match pattern="*.cs" recurse="true"/>
@@ -3199,24 +3199,24 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Region.PhysicsModule.BulletS.Tests" path="OpenLife/Region/PhysicsModules/BulletS/Tests" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../../../bin/</OutputPath>
+          <OutputPath>../../../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../../../bin/</ReferencePath>
+      <ReferencePath>../../../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Data"/>
-      <Reference name="Nini" path="../../../../../bin/"/>
-      <Reference name="log4net" path="../../../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../../../bin/"/>
+      <Reference name="Nini" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="log4net" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Tests.Common"/>
       <Reference name="OpenLife.Region.Framework"/>
@@ -3233,26 +3233,26 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Server.Handlers.Tests" path="OpenLife/Server/Handlers" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Web"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -3279,27 +3279,27 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tests.Stress" path="OpenLife/Tests/Stress" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Core"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Data"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>
@@ -3319,26 +3319,26 @@
     <Project frameworkVersion="v4_0" name="OpenLife.Tests.Performance" path="OpenLife/Tests/Performance" type="Library">
       <Configuration name="Debug">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
       <Configuration name="Release">
         <Options>
-          <OutputPath>../../../bin/</OutputPath>
+          <OutputPath>../../../OpenLifeSim/bin/</OutputPath>
         </Options>
       </Configuration>
 
-      <ReferencePath>../../../bin/</ReferencePath>
+      <ReferencePath>../../../OpenLifeSim/bin/</ReferencePath>
       <Reference name="System"/>
       <Reference name="System.Xml"/>
       <Reference name="System.Data"/>
-      <Reference name="log4net" path="../../../bin/"/>
-      <Reference name="Nini" path="../../../bin/"/>
-      <Reference name="nunit.framework" path="../../../bin/"/>
-      <Reference name="OpenMetaverse" path="../../../bin/"/>
-      <Reference name="OpenMetaverseTypes" path="../../../bin/"/>
-      <Reference name="OpenMetaverse.StructuredData" path="../../../bin/"/>
-      <Reference name="XMLRPC" path="../../../bin/"/>
+      <Reference name="log4net" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="Nini" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="nunit.framework" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverseTypes" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="OpenMetaverse.StructuredData" path="../../../OpenLifeSim/bin/"/>
+      <Reference name="XMLRPC" path="../../../OpenLifeSim/bin/"/>
       <Reference name="OpenLife.Framework"/>
       <Reference name="OpenLife.Framework.Console"/>
       <Reference name="OpenLife.Framework.Servers.HttpServer"/>

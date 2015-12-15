@@ -4,28 +4,28 @@ case "$1" in
 
   'clean')
 
-    mono bin/Prebuild.exe /clean
+    mono OpenLifeSim/bin/Prebuild.exe /clean
 
   ;;
 
 
   'autoclean')
 
-    echo y|mono bin/Prebuild.exe /clean
+    echo y|mono OpenLifeSim/bin/Prebuild.exe /clean
 
   ;;
 
 
   'vs2010')
   
-    mono bin/Prebuild.exe /target vs2010
+    mono OpenLifeSim/bin/Prebuild.exe /target vs2010
   
   ;;
 
   *)
 
-    mono bin/Prebuild.exe /target nant
-    mono bin/Prebuild.exe /target vs2010
+    mono OpenLifeSim/bin/Prebuild.exe /target nant
+    mono OpenLifeSim/bin/Prebuild.exe /target vs2010
 
   ;;
 
