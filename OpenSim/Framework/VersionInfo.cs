@@ -41,7 +41,8 @@ namespace OpenSim
             RC3,
             Release,
             Post_Fixes,
-            Extended
+            Extended,
+            Internal
         }
 
         public static string Version
