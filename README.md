@@ -2,7 +2,7 @@ Welcome to OpenLife!
 
 # Overview
 
-OpenLife is a BSD Licensed Open Source project based on the OpenLife platform to develop a functioning
+OpenLife is a BSD Licensed Open Source project based on the OpenSim platform to develop a functioning
 virtual worlds server platform capable of supporting multiple clients
 and servers in a heterogeneous grid structure. OpenLife is written in
 C#, and can run under Mono or the Microsoft .NET runtimes.
@@ -17,7 +17,7 @@ need to build OpenLife before running it.
 
 # Running OpenLife on Windows
 
-You will need .NET 4.0 installed to run OpenLifeulator.
+You will need .NET 4.0 installed to run OpenSimulator.
 
 We recommend that you run OpenLife from a command prompt on Windows in order
 to capture any errors.
@@ -32,7 +32,7 @@ Now see the "Configuring OpenLife" section
 # Running OpenLife on Linux
 
 You will need Mono >= 2.10.8.1 to run OpenLife.  On some Linux distributions you
-may need to install additional packages.  See http://OpenLifeulator.org/wiki/Dependencies
+may need to install additional packages.  See http://OpenSimulator.org/wiki/Dependencies
 for more information.
 
 To run OpenLife, from the unpacked distribution type:
@@ -72,8 +72,8 @@ If you want to create another user account to login rather than the estate
 account, then type "create user" on the OpenLife console and follow the prompts.
 
 Helpful resources:
- * http://OpenLifeulator.org/wiki/Configuration
- * http://OpenLifeulator.org/wiki/Configuring_Regions
+ * http://OpenSimulator.org/wiki/Configuration
+ * http://OpenSimulator.org/wiki/Configuring_Regions
 
 # Connecting to your OpenLife
 
@@ -90,7 +90,7 @@ one you set up using the "create user" command.
 
 In the very likely event of bugs biting you (err, your OpenLife) we
 encourage you to see whether the problem has already been reported on
-the [OpenLife mantis system](http://OpenLifeulator.org/mantis/main_page.php).
+the [OpenLife mantis system](http://OpenSimulator.org/mantis/main_page.php).
 
 If your bug has already been reported, you might want to add to the
 bug description and supply additional information.
@@ -109,7 +109,7 @@ mantis"). Useful information to include:
 
 More extensive information on building, running, and configuring
 OpenLife, as well as how to report bugs, and participate in the OpenLife
-project can always be found at http://OpenLifeulator.org.
+project can always be found at https://github.com/OpenLifeServer/OpenLife.
 
 Thanks for trying OpenLife, we hope it is a pleasant experience.
 
