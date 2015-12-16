@@ -28,6 +28,7 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
+using OpenLife.Framework;
 
 namespace OpenSim.Framework
 {

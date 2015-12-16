@@ -31,8 +31,9 @@ using System.Collections.Generic;
 using log4net;
 using OpenMetaverse;
 using OpenMetaverse.StructuredData;
+using OpenSim.Framework;
 
-namespace OpenSim.Framework
+namespace OpenLife.Framework
 {
     /// <summary>
     /// Circuit data for an agent.  Connection information shared between

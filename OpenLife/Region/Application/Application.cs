@@ -32,10 +32,10 @@ using System.Reflection;
 using log4net;
 using log4net.Config;
 using Nini.Config;
-using OpenSim.Framework;
-using OpenSim.Framework.Console;
+using OpenLife.Framework;
+using OpenLife.Framework.Console;
 
-namespace OpenSim
+namespace OpenLife
 {
     /// <summary>
     /// Starting class for the OpenSimulator Region

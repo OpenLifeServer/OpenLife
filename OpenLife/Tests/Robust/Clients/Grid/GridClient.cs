@@ -33,10 +33,10 @@ using System.Reflection;
 using OpenMetaverse;
 using NUnit.Framework;
 
-using OpenSim.Framework;
-using OpenSim.Services.Interfaces;
-using GridRegion = OpenSim.Services.Interfaces.GridRegion;
-using OpenSim.Services.Connectors;
+using OpenLife.Framework;
+using OpenLife.Services.Interfaces;
+using GridRegion = OpenLife.Services.Interfaces.GridRegion;
+using OpenLife.Services.Connectors;
 
 namespace Robust.Tests
 {

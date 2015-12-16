@@ -28,6 +28,7 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
+using OpenLife.Framework;
 using OpenMetaverse;
 using OpenMetaverse.Packets;
 

@@ -37,7 +37,7 @@ using System.Threading;
 using log4net;
 using OpenSim.Framework;
 
-namespace OpenSim.Framework.Console
+namespace OpenLife.Framework.Console
 {
     public class Commands : ICommands
     {

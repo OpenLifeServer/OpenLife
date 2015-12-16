@@ -31,10 +31,10 @@ using System.Reflection;
 using System;
 using System.Net;
 using System.Collections.Generic;
-using OpenSim.Framework.Servers;
-using OpenSim.Framework.Servers.HttpServer;
-using OpenSim.Server.Base;
-using OpenSim.Server.Handlers.Base;
+using OpenLife.Framework.Servers;
+using OpenLife.Framework.Servers.HttpServer;
+using OpenLife.Server.Base;
+using OpenLife.Server.Handlers.Base;
 using Mono.Addins;
 
 namespace OpenSim.Server
